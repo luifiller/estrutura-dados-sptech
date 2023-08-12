@@ -1,5 +1,5 @@
 package org.example;
 
-public interface IVenda {
+public interface Vendavel {
     public abstract Double getValorVenda();
 }

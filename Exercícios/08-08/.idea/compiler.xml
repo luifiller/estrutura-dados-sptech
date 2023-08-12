@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="carrinho" />
+        <module name="exercicio-interface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="carrinho" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
