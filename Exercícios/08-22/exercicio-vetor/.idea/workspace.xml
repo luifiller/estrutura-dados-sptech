@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82df50e1-654b-4f28-ba5a-5b5427173264" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../exemplo-vetor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo-vetor/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo-vetor/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo-vetor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exemplo-vetor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/08-29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/exercicio06-vetor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/exercicio06-vetor/src/main/java/org/example/Exercicio05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/exercicio06-vetor/src/main/java/org/example/Exercicio06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/exercicio06-vetor/target/classes/org/example/Exercicio05.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../08-29/exercicio06-vetor/target/classes/org/example/Exercicio06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo-vetor/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo-vetor/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exemplo-vetor/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../exemplo-vetor/target/classes/org/example/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2Ug9eNL9Rkpl2fyAjXZNADvNQlS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82df50e1-654b-4f28-ba5a-5b5427173264" name="Changes" comment="" />
+      <created>1693350453107</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693350453107</updated>
+      <workItem from="1693350456324" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
