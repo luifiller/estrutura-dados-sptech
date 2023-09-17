@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/estrutura-dados-sptech.iml" filepath="$PROJECT_DIR$/.idea/estrutura-dados-sptech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ordenacao.iml" filepath="$PROJECT_DIR$/ordenacao.iml" />
     </modules>
   </component>
 </project>

@@ -4,16 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Exercícios/09-12/ordenacao/pom.xml" />
+        <option value="$PROJECT_DIR$/ordenacao/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/Exercícios/09-12/ordenacao/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="19" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
