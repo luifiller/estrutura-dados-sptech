@@ -9,7 +9,7 @@ public class ListaEstatica {
         this.nroElem = 0;
     }
 
-    public void adiciona(int elemento) {
+    public void adicionaElemento(int elemento) {
         if (this.nroElem == this.vetor.length) {
             System.out.println("Lista cheia");
         } else {
@@ -18,13 +18,13 @@ public class ListaEstatica {
         }
     }
 
-    public void exibe() {
+    public void exibeLista() {
         for (int i = 0; i < this.nroElem; i++) {
             System.out.println(this.vetor[i]);
         }
     }
 
-    public int busca(int elemento) {
+    public int buscaElementoUnico(int elemento) {
         for (int i = 0; i < this.nroElem; i++) {
             if (this.vetor[i] == elemento) {
                 return i;
@@ -33,7 +33,7 @@ public class ListaEstatica {
         return -1;
     }
 
-    public boolean removePeloIndice(int indice) {
+    public boolean removePorIndice(int indice) {
         if (indice < 0 || indice >= this.nroElem) {
             return false;
         } else {
@@ -45,12 +45,12 @@ public class ListaEstatica {
         }
     }
 
-    public boolean removeElemento(int elemento) {
-        int indice = this.busca(elemento);
+    public boolean removeElementoUnico(int elemento) {
+        int indice = this.buscaElementoUnico(elemento);
         if (indice == -1) {
             return false;
         } else {
-            return this.removePeloIndice(indice);
+            return this.removePorIndice(indice);
         }
     }
 }
