@@ -53,4 +53,56 @@ public class ListaEstatica {
             return this.removePorIndice(indice);
         }
     }
+
+    public boolean substitui(int valorAntigo, int valorNovo) {
+        int valorAntigoExiste = this.buscaElementoUnico(valorAntigo);
+
+        if (valorAntigoExiste == -1) {
+            System.out.println("Valor não encontrado.");
+            return false;
+        }
+
+        for (int i = 0; i < this.nroElem; i++) {
+            if (this.vetor[i] == valorAntigo) {
+                this.vetor[i] = valorNovo;
+                System.out.println("Valor substituido!");
+            }
+        }
+
+        return true;
+    }
+
+    public int contaOcorrencias(int valor) {
+        int contador = 0;
+        int valorAntigoExiste = this.buscaElementoUnico(valor);
+
+        if (valorAntigoExiste == -1) {
+            System.out.printf("O valor %d não encontrado. \n", valor);
+            return 0;
+        }
+
+
+        for (int i = 0; i < this.nroElem; i++) {
+            if (this.vetor[i] == valor) {
+                contador++;
+            }
+        }
+
+        return contador;
+    }
+
+    public boolean adicionaNoInicio(int valor) {
+        if (this.nroElem == this.vetor.length) {
+            System.out.println("Lista cheia");
+            return false;
+        }
+
+        for (int i = this.nroElem; i > 0; i--) {
+            this.vetor[i] = this.vetor[i - 1];
+        }
+
+        this.vetor[0] = valor;
+        this.nroElem++;
+        return true;
+    }
 }
