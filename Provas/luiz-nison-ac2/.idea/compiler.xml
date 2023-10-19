@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="luiz-nison-ac2" />
-        <module name="luiz-nison-ac1" />
       </profile>
     </annotationProcessing>
   </component>

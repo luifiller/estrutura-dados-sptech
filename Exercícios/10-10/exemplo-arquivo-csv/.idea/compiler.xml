@@ -9,5 +9,8 @@
         <module name="exemplo-arquivo-csv" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="luiz-nison-ac2" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>
