@@ -1,0 +1,7 @@
+00NOTA2023224-10-2023 18:21:0601
+02ADS  01222013Denilson Reis                                     Estrutura de Dados                      09,90002
+02ADS  01222093Estela Polverini                                  Engenharia de Software                  07,00015
+02ADS  01222077Murilo Barbosa                                    Programação Web                         10,00000
+02REDES04222000Mario Bros                                        Segurança da Informação                 08,50010
+02CCO  02221025Ana Teixeira                                      Análise de Algoritmos                   07,50007
+010000000005

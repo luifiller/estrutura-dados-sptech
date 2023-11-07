@@ -300,5 +300,71 @@ public class Main {
             }
         } while (opcao != 5);
 
+        Repositorio repositorio = new Repositorio();
+        int opcao2 = 0;
+        Scanner leitor2 = new Scanner(System.in);
+        Scanner leitorNl2 = new Scanner(System.in);
+
+        do {
+            System.out.println("Escolha a opção desejada: (digite 1, 2, 3, 4 ou 5)");
+            System.out.println("1 - Salvar objeto");
+            System.out.println("2 - Deletar objeto");
+            System.out.println("3 - Exibir");
+            System.out.println("4 - Desfazer");
+            System.out.println("5 - Fim");
+            opcao2 = leitor2.nextInt();
+
+            switch (opcao2) {
+                case 1:
+                    System.out.println("Digite o id do animal:");
+                    int id = leitor2.nextInt();
+
+                    System.out.println("Digite o nome:");
+                    String nome = leitorNl2.nextLine();
+
+                    System.out.println("Digite a idade:");
+                    Integer idade = leitor2.nextInt();
+
+                    System.out.println("Digite o peso:");
+                    Double peso = leitor2.nextDouble();
+
+                    System.out.println("Digite o especie:");
+                    String especie = leitorNl2.nextLine();
+
+                    System.out.println("Digite o altura:");
+                    Double altura = leitor2.nextDouble();
+
+                    System.out.println("Digite o sexo:");
+                    String sexo = leitorNl2.nextLine();
+
+                    repositorio.salvar(new Animal(id, idade, nome, peso, especie, altura, sexo));
+
+                    System.out.println("Animal cadastrado!");
+                    break;
+
+                case 2:
+                    System.out.println("Digite o id do animal a ser deletado:");
+                    int id2 = leitor2.nextInt();
+
+                    repositorio.deletar(id2);
+                    break;
+
+                case 3:
+                    repositorio.exibir();
+                    break;
+
+                case 4:
+                    repositorio.desfazer();
+                    break;
+
+                case 5:
+                    System.out.println("Obrigada por vir ao Zoológico e volte sempre.");
+                    break;
+
+                default:
+                    System.out.println("Opção digitada inválida");
+                    break;
+            }
+        } while (opcao2 != 5);
     }
 }
