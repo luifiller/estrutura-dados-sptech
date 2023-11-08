@@ -312,6 +312,8 @@ public class Main {
             System.out.println("3 - Exibir");
             System.out.println("4 - Desfazer");
             System.out.println("5 - Fim");
+            System.out.println("6 - Agendar salvar");
+            System.out.println("7 - Executar agendado");
             opcao2 = leitor2.nextInt();
 
             switch (opcao2) {
@@ -359,6 +361,37 @@ public class Main {
 
                 case 5:
                     System.out.println("Obrigada por vir ao Zoológico e volte sempre.");
+                    break;
+
+                case 6:
+                    System.out.println("Digite o id do animal:");
+                    int id3 = leitor2.nextInt();
+
+                    System.out.println("Digite o nome:");
+                    String nome2 = leitorNl2.nextLine();
+
+                    System.out.println("Digite a idade:");
+                    Integer idade2 = leitor2.nextInt();
+
+                    System.out.println("Digite o peso:");
+                    Double peso2 = leitor2.nextDouble();
+
+                    System.out.println("Digite o especie:");
+                    String especie2 = leitorNl2.nextLine();
+
+                    System.out.println("Digite o altura:");
+                    Double altura2 = leitor2.nextDouble();
+
+                    System.out.println("Digite o sexo:");
+                    String sexo2 = leitorNl2.nextLine();
+
+                    repositorio.agendarSalvar(new Animal(id3, idade2, nome2, peso2, especie2, altura2, sexo2));
+                    break;
+
+                case 7:
+                    System.out.println("Digite a quantidade de operações a serem executadas:");
+                    int qtdOperacoes = leitor2.nextInt();
+                    repositorio.executarAgendado(qtdOperacoes);
                     break;
 
                 default:
